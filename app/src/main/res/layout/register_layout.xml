@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6d81a3">
+
+    <include layout="@layout/fragment_back_layout" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NICKNAME"
+        android:textSize="50sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="80dp"/>
+
+    <EditText
+        android:id="@+id/registerNickname"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="170dp"
+        android:background="@color/white" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        android:textSize="50sp"
+        android:layout_marginTop="240dp"
+        android:layout_marginStart="80dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginStart="55dp"
+        android:background="@color/white"
+        android:id="@+id/registerPassword"
+        android:inputType="textPassword"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REPEAT"
+        android:textSize="50sp"
+        android:layout_marginTop="390dp"
+        android:layout_marginStart="120dp" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginStart="55dp"
+        android:background="@color/white"
+        android:id="@+id/registerRepeat"
+        android:inputType="textPassword"/>
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/register"
+        android:layout_marginTop="530dp"
+        android:layout_marginStart="130dp"
+        android:id="@+id/registerRegister"/>
+</RelativeLayout>

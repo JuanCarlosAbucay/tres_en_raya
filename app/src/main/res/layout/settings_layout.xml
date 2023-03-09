@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6d81a3">
+
+    <include
+        layout="@layout/fragment_back_layout" />
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="5dp">
+        <ImageView
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:src="@drawable/volume_max"/>
+        <ImageView
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:src="@drawable/difficulty_hard"/>
+        <ImageView
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:src="@drawable/rgb"/>
+        <ImageView
+            android:layout_height="200dp"
+            android:layout_width="200dp"
+            android:src="@drawable/lang_es"/>
+    </GridLayout>
+</RelativeLayout>

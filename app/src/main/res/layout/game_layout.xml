@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grid">
+    <include
+        layout="@layout/fragment_back_layout"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="P1 TURN"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="90dp"
+        android:id="@+id/turnos"/>
+
+    <ImageView
+        android:id="@+id/casilla11"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="5dp"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="145dp"
+        android:id="@+id/casilla12"/>
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="285dp"
+        android:id="@+id/casilla13"/>
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="5dp"
+        android:id="@+id/casilla21"/>
+
+    <ImageView
+        android:id="@+id/casilla22"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="300dp" />
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginStart="285dp"
+        android:id="@+id/casilla23"/>
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginStart="5dp"
+        android:id="@+id/casilla31"/>
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginStart="145dp"
+        android:id="@+id/casilla32"/>
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginStart="285dp"
+        android:id="@+id/casilla33"/>
+    <include
+        layout="@layout/victory_layout"
+        android:layout_marginTop="220dp"
+        android:layout_marginStart="60dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:visibility="gone"
+        android:id="@+id/victory"
+        />
+</RelativeLayout>
